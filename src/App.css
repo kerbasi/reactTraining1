@@ -1,6 +1,27 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.card-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.standout {
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, rgb(51, 51, 51) 0 0 0 3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   text-align: center;
 }
