@@ -1,6 +1,6 @@
 ﻿import {useState} from 'react'
 
-const Content = () => {
+const Employees = () => {
   const [employees, setEmployees] = useState([{
     id: 1,
     fullName: "Bob Jones",
@@ -97,4 +97,4 @@ const Content = () => {
   )
 }
 
-export default Content
+export default Employees
