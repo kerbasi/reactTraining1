@@ -5,7 +5,7 @@ const Employees = ({employees, selectedTeam, handlerEmployeeCardClick, handleTea
   return (
     <main className="container">
       <div className='row justify-content-center mt-3 mb-3'>
-        <div className='col-8'>
+        <div className='col-6'>
           <select name="" id="" className='form-select form-select-lg' value={selectedTeam} onChange={handleTeamSelectionChange}>
             <option value="TeamA">TeamA</option>
             <option value="TeamB">TeamB</option>
