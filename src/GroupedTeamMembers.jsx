@@ -1,13 +1,17 @@
-﻿const GroupedTeamMembers = () => {
-  return (
-    <div className='container'>
-      <div className='row justify-content-center mt-3 mb-4'>
-        <div className='col-8'>
-          <h1>404 - Page Not Found</h1>
-        </div>
-      </div>
-    </div>
+﻿import { useState } from "react";
+
+const GroupedTeamMembers = ({ employees, selectedTeam, setTeam }) => {
+  const [groupedEmployees, setGroupedData] = useState(
+    groupTeamMembers(employees)
   );
+
+  function groupTeamMembers(employees) {
+    const groupedEmployees = [];
+    employees.forEach((employee) => {});
+    return employees;
+  }
+
+  return <div>GroupedTeamMembers</div>;
 };
 
 export default GroupedTeamMembers;
